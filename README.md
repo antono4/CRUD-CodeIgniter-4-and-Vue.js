@@ -1,60 +1,78 @@
-# CodeIgniter 4 Framework
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-> **Created by Antono**
+<h1 align="center">Project 👋</h1>
 
+<p align="center">
+  <strong></strong>
+</p>
 
-## What is CodeIgniter?
+<p align="center">
+  <a href="https://github.com/antono4/CRUD-CodeIgniter-4-and-Vue.js"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/CRUD-CodeIgniter-4-and-Vue.js-blue?logo=github"></a>
+  <a href="https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-486-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 13:11:17 WIB-lightgrey">
+</p>
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
-More information can be found at the [official site](http://codeigniter.com).
+---
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## 📖 Tentang
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+Repository **`CRUD-CodeIgniter-4-and-Vue.js`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/`](https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/).
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
+## 🗂️ Struktur Proyek
 
+```
+CRUD-CodeIgniter-4-and-Vue.js/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+└── app/              # 403 Forbidden  ->  https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/app/
+└── system/              # 403 Forbidden  ->  https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/system/
+```
 
-## Important Change with index.php
+## 🌐 Sub-Proyek / Demo
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+| Folder | Demo Live | Keterangan |
+|--------|-----------|-----------|
+| [`app`](./app) | [https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/app/](https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/app/) | 403 Forbidden |
+| [`system`](./system) | [https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/system/](https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/system/) | 403 Forbidden |
 
-**Please** read the user guide for a better explanation of how CI4 works!
-The user guide updating and deployment is a bit awkward at the moment, but we are working on it!
+## 🛠️ Teknologi
 
-## Repository Management
+Berdasarkan isi repository, proyek ini menggunakan:
 
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+- `HTML`
+- `CSS`
+- `JavaScript`
+- `PHP`
 
-This repository is a "distribution" one, built by our release preparation script. 
-Problems with it can be raised on our forum, or as issues in the main repository.
+> Total **486 file** terdeteksi di repository.
 
-## Contributing
+## 🚀 Menjalankan Secara Lokal
 
-We welcome contributions from the community.
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing.md) section in the development repository.
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
 
-## Server Requirements
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
 
-PHP version 7.2 or higher is required, with the following extensions installed: 
+## 📬 Kontak
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/](https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/)
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+## 📄 Lisensi
 
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-13 13:11:17 WIB** oleh GitHub Actions .</sub>
