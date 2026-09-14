@@ -1,1 +1,26 @@
-Last updated: 2026-09-15 05:42:28 WIB
+# CRUD-CodeIgniter-4-and-Vue.js
+
+
+
+## 📋 Overview
+
+This repository contains **490 files** and is built with the following technologies:
+
+Not detected
+
+## 🚀 Quick Start
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Not detected
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-09-15 06:26:24 WIB*
