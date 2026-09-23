@@ -11,7 +11,7 @@
   <a href="https://github.com/antono4/CRUD-CodeIgniter-4-and-Vue.js"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/CRUD-CodeIgniter-4-and-Vue.js-blue?logo=github"></a>
   <a href="https://antono4.github.io/CRUD-CodeIgniter-4-and-Vue.js/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
   <img alt="Files" src="https://img.shields.io/badge/Files-491-informational">
-  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-23 20:35:48 WIB-lightgrey">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-24 00:57:17 WIB-lightgrey">
 </p>
 
 ---
@@ -75,5 +75,4 @@ Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis pada **2026-09-23 20:35:48 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
-Last updated: 2026-09-24 00:37:31 WIB
+<sub>README ini di-generate otomatis pada **2026-09-24 00:57:17 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
